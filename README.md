@@ -4,7 +4,7 @@ This repository provides 2 projects that implement a rangefinder using the HC-SR
 
 The CLB peripheral is a collection of logic elements that can be programmed to perform a variety of digital logic functions. The logic function may be completely combinatorial, sequential or a combination of the two, enabling users to incorporate hardware-based custom logic into their applications.
 
-The HC-SR04 is a standard ultrasonic sensor that can be used for object detection and distance sensing. This is accomplished by the transmitter sending a signal, and making a calculation based off the time it took to get to the reciever. 
+The HC-SR04 is a standard ultrasonic sensor that can be used for object detection and distance sensing. This is accomplished by the transmitter sending a signal, and making a calculation based off the time it took the signal to get back to the reciever. 
 
 ## Related Documentation
 
@@ -24,5 +24,17 @@ More details and code examples on the PIC16F13145 can be found at the following 
 
 - The [PIC16F13145 Curiosity Nano Development board](https://www.microchip.com/en-us/development-tool/EV06M52A?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_Apps_PIC16F13145&utm_content=pic16f13145-quadrature-decoder-up-down-mplab-mcc&utm_bu=MCU08) is used as a test platform:
 
-- The HC-SRO4
+- The HC-SRO4 Ultraonic distance sensor
+- Seven LEDs
+- 7 Resistors for LEDs (rec. 1kΩ)
 
+##Setup
+1. Attach 7 LEDs in the following fashion.
+
+image here
+
+You can attach the LEDs to any I/O but the pin used in this example are 
+| PIN | LED # |
+|--|--|
+||1|
+2. The H2
