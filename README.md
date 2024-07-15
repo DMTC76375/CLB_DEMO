@@ -40,6 +40,7 @@ Below is 2 examples of the CLB displaying configurablity, first we have the proj
 
 1. Attach 7 LEDs in the following fashion.
 
+![All LEDs](./images/LED_circuit.png)
 
 You can attach the LEDs to any I/O but the pin used in this example are 
 | PIN | LED # |
