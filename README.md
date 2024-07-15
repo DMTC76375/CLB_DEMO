@@ -35,14 +35,16 @@ Below is 2 examples of the CLB displaying configurablity, first we have the proj
 
 ![Single LED](./images/SingleLED.gif) 
 
+
+
 ## Setup
 ### Hardware Setup
 
 1. Attach 7 LEDs in the following fashion.
 
-![All LEDs](./images/LED_circuit.png)
+![LED Circuit](./images/LED_circuit.png)
 
-You can attach the LEDs to any I/O but the pin used in this example are 
+You can attach the LEDs to any I/O but the pins used in this example are 
 | PIN | LED # |
 |--|--|
 |RC6|1|
@@ -56,11 +58,13 @@ You can attach the LEDs to any I/O but the pin used in this example are
 
 2. The HC-SR04 is connected to the Nano Board via 4 pins
 
+![Sensor](./images/HCSR04.png)
+
 | Nano Pin | HC-SR04 Pin |
 |--|--|
-|RB4|Echo|
-|RB6|Trig|
 |VTG|V<sub>CC</sub>|
+|RB6|Trig|
+|RB4|Echo|
 |GND|GND|
 
 **Important Note:** The HC-SR04 is uses 5 volts for inputs and outputs it is recommended to switch the Nano to 5V mode to avoid BOR. 
