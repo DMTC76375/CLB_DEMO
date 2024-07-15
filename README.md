@@ -28,7 +28,7 @@ More details and code examples on the PIC16F13145 can be found at the following 
 - 7 Resistors for LEDs (rec. 1kΩ)
 
 ## Operation
-
+![Sample Measurement](./images/AllLeds.gif) 
 
 
 
