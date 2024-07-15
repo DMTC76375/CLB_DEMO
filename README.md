@@ -23,11 +23,14 @@ More details and code examples on the PIC16F13145 can be found at the following 
 ## Hardware Used
 
 - The [PIC16F13145 Curiosity Nano Development board](https://www.microchip.com/en-us/development-tool/EV06M52A?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_Apps_PIC16F13145&utm_content=pic16f13145-quadrature-decoder-up-down-mplab-mcc&utm_bu=MCU08) is used as a test platform:
-- The HC-SRO4 Ultraonic distance sensor
+- The HC-SR04 Ultraonic distance sensor
 - Seven LEDs
-- 7 Resistors for LEDs (rec. 1kΩ)
+- 7 Resistors for LEDs (rec. 2.2kΩ)
 
 ## Operation
+
+Below is 2 examples of the CLB displaying configurablity, first we have the project being displayed on multiple LEDs and following that is another being displayed on one.
+
 ![All LEDs](./images/AllLEDs.gif) 
 
 ![Single LED](./images/SingleLED.gif) 
