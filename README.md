@@ -37,8 +37,8 @@ Below is 2 examples of the CLB displaying configurablity, first we have the proj
 
 
 
-## Setup
-### Hardware Setup
+
+## Hardware Setup
 
 1. Attach 7 LEDs in the following fashion.
 
@@ -69,8 +69,26 @@ You can attach the LEDs to any I/O but the pins used in this example are
 
 **Important Note:** The HC-SR04 is uses 5 volts for inputs and outputs it is recommended to switch the Nano to 5V mode to avoid BOR. 
 
-### MCC Setup
+## MCC Setup
 
+
+
+
+```
+module led_all_counts(in1, in2, in3, in4, in5, in6, in7, in8, led10cm, led20cm, led30cm, led40cm, led50cm, led60cm, led70cm, led80cm);
+input in1, in2, in3, in4, in5, in6, in7, in8;
+output led10cm, led20cm, led30cm, led40cm, led50cm, led60cm, led70cm, led80cm;
+
+assign led10cm = in1 | in2 | in3 | in4 | in5 | in6 | in7 | in8;
+assign led10cm = in2 | in3 | in4 | in5 | in6 | in7 | in8;
+assign led10cm = in3 | in4 | in5 | in6 | in7 | in8;
+assign led10cm = in4 | in5 | in6 | in7 | in8;
+assign led10cm = in5 | in6 | in7 | in8;
+assign led10cm = in6 | in7 | in8;
+assign led10cm = in7 | in8;
+assign led10cm = in8;
+endmodule
+```
 
 
 
