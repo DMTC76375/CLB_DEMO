@@ -80,22 +80,22 @@ You can attach the LEDs to any I/O but the pins used in this example are
  -  CLKOUT function disabled
  -  Interal analog systems are calibrated for operation between VDD = 2.3 - 5.5V
 
- ![CONFIG1](./images/CONFIG1.png)
+ <img src="images/CONFIG1.png" alt="CONFIG1" width="500"/>
 
 ### 2. TMR2
 
 
  
- ![TIMER2](./images/TMR2.png)
+ <img src="images/TMR2.png" alt="TMR2" width="500"/>
 
 ### 3. PWM1
 
- ![PWM1](./images/PWM1.png)
+ <img src="images/PWM1.png" alt="PWM1" width="500"/>
 
 ### 4. TMR0
  
   - 
- ![TIMER0](./images/TMR0.png)
+ <img src="images/TMR0.png" alt="TMR0" width="500"/>
 
 ### 5. NVM
 
@@ -113,6 +113,8 @@ You can attach the LEDs to any I/O but the pins used in this example are
 
 There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream.
 
+# All LEDs Active
+
 For Single LED results the following submodule should be added within a `New Schematic`
 
 ![CLB_SUB](./images/LED_Single.png)
@@ -121,6 +123,8 @@ The final result should look like this
 
 ![CLB_MAIN1](./images/CLB_Single.png)
 
+
+# Single LED Active
 
 For Single LED results the following submodule should be added within a `New Verilog`
 
