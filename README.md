@@ -29,13 +29,15 @@ More details and code examples on the PIC16F13145 can be found at the following 
 
 ## Operation
 
-Below is 2 examples of the CLB displaying configurablity, first we have the project being displayed on multiple LEDs and following that is another being displayed on one.
 
+
+### All LEDs ON
 ![All LEDs](./images/AllLEDs.gif) 
 
+### One LED ON
 ![Single LED](./images/SingleLED.gif) 
 
-In this example the CLB measures the duration of the echo pin, using the Timer0 
+Above are 2 examples of the CLB displaying configurablity, first we have the project being displayed on multiple LEDs and following that is another being displayed only on one. In this example the CLB measures the duration of the echo pin, using the Timer 0 overflow
 
 
 
@@ -72,7 +74,55 @@ You can attach the LEDs to any I/O but the pins used in this example are
 
 ## MCC Setup
 
+1. Configuration Bits:
+ -  Osillator not enabled
+ -  HFINTOSC (32MHz)
+ -  CLKOUT function disabled
+ -  Interal analog systems are calibrated for operation between VDD = 2.3 - 5.5V
 
+ ![CONFIG1](./images/CONFIG1.png)
+
+### 2. TMR2
+
+
+ 
+ ![TIMER2](./images/TMR2.png)
+
+### 3. PWM1
+
+ ![PWM1](./images/PWM1.png)
+
+### 4. TMR0
+ 
+  - 
+ ![TIMER0](./images/TMR0.png)
+
+### 5. NVM
+
+  - Auto-Configured for CLB
+
+### 6. CRC
+
+  - Auto-Configured for CLB
+
+### 7. CLB
+
+-  Clock Selection: TMR0_Overflow
+
+ ![CLB1](./images/CLB1.png)
+
+There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream.
+
+For Single LED results the following submodule should be added within a `New Schematic`
+
+![CLB_SUB](./images/LED_Single.png)
+
+The final result should look like this 
+
+![CLB_MAIN1](./images/CLB_Single.png)
+
+
+For Single LED results the following submodule should be added within a `New Verilog`
 
 
 ```
@@ -91,6 +141,8 @@ assign led10cm = in8;
 endmodule
 ```
 
+The final result should look like this 
 
+![CLB_MAIN2](./images/CLB_ALL.png)
 
 
