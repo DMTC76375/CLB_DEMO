@@ -35,6 +35,7 @@ Below is 2 examples of the CLB displaying configurablity, first we have the proj
 
 ![Single LED](./images/SingleLED.gif) 
 
+In this example the CLB measures the duration of the echo pin, using the Timer0 
 
 
 
