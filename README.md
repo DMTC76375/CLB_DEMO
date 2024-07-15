@@ -28,7 +28,7 @@ More details and code examples on the PIC16F13145 can be found at the following 
 - Seven LEDs
 - 7 Resistors for LEDs (rec. 1kΩ)
 
-##Setup
+## Setup
 1. Attach 7 LEDs in the following fashion.
 
 image here
@@ -36,5 +36,22 @@ image here
 You can attach the LEDs to any I/O but the pin used in this example are 
 | PIN | LED # |
 |--|--|
-||1|
-2. The H2
+|RC6|1|
+|RC7|2|
+|RB7|3|
+|RB5|4|
+|RC0|5|
+|RC1|6|
+|RA4|7|
+|RA5|8|
+
+2. The HC-SR04 is connected to the Nano Board via 2 pins
+
+| Nano Pin | HC-SR04 Pin |
+|--|--|
+|RB4|Echo|
+|RB6|Trig|
+|Trig|1|
+|VTG|V<sub>CC</sub>|
+|GND|GND|
+
