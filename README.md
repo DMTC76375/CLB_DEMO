@@ -39,6 +39,8 @@ More details and code examples on the PIC16F13145 can be found at the following 
 
 Above are 2 examples of the CLB displaying configurablity, first we have the project being displayed on multiple LEDs and following that is another being displayed only on one. In this example the CLB measures the duration of the echo pin, using the Timer 0 overflow
 
+## Concept
+
 
 
 ## Hardware Setup
@@ -114,7 +116,7 @@ You can attach the LEDs to any I/O but the pins used in this example are
 
   <img src="images/CLB1.png" alt="CLB1" width="500"/>
 
-There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream.
+There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream. The following instructions are going to be applicable to the MCC CLB synthesizer or the Online Tool as well.
 
 # All LEDs Active
 
@@ -125,7 +127,6 @@ For Single LED results the following submodule should be added within a `New Sch
 The final result should look like this 
 
 ![CLB_MAIN1](./images/CLB_Single.png)
-
 
 # Single LED Active
 
