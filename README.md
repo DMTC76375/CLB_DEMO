@@ -139,7 +139,7 @@ You can attach the LEDs to any I/O but the pins used in this example are
 
 ## Comparison to Software
 
-The CLB significantly reduces the software overhead associated with implementing this example. In software, you would have to manage a timer, a counter, and the IO's. These tasks involve managing your pin placement, in some cases making sure there is an open row, making sure your counter and/or timer is reloaded. With the CLB, all of the functions associated with this example are handled by the hardware, which leaves the CPU free to do other tasks without interruption. 
+The CLB significantly reduces the software overhead associated with implementing this example. In software, you would have to manage a timer, a counter, and the IO's. These tasks involve managing pin placement (in some cases making sure there is an open row), checking the counter and/or timer is reloaded, or bit-masking. With the CLB, all of the functions associated with this example are handled by the hardware, which leaves the CPU free to do other tasks without interruption. 
 
 ## Theory of Operation
 
