@@ -40,7 +40,11 @@ Above are 2 examples of the CLB displaying configurablity, first we have the pro
 ## Concept
 ![Concept](./images/HC-SR04.png) 
 
-The HC-SR04 Sensor works by sending a series of pulses after the trigger pin has been toggled. These pulses will travel until they reach an object, and reflect back to the sensor if within range. This transaction is measured proportionally on the Echo pin, the pin will remain high a signal is never received back 
+The HC-SR04 Sensor works by sending a series of pulses after the trigger pin has been toggled. These pulses will travel until they reach an object, and reflect back to the sensor if within range. This transaction is measured proportionally on the Echo pin, the pin will remain high a signal is never received back. This means that the CLB can monitor the HC-SR04 by watching the echo pin.
+
+![Concept Logic](./images/CLB_LOGIC.png) 
+
+Using the timer 0 overflow and the internal CLB counter we can use the echo line to sort itself out into bins and be displayed on `COUNT_IS_X`
 
 ## Hardware Setup
 
