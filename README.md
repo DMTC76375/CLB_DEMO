@@ -132,11 +132,11 @@ You can attach the LEDs to any I/O but the pins used in this example are
 <img src="images/PINGRID.png" alt="CLB1" width="500"/>
 
 
-There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream. The following instructions are going to be applicable to the MCC CLB synthesizer or the Online Tool as well.
+There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream. The following instructions are going to be applicable to the MCC CLB synthesizer or the Online Tool as well. 
 
 # All LEDs Active
 
-For Single LED results the following submodule should be added within a `New Schematic`
+For Single LED results the following submodule should be added within a `New Schematic` under documents on the synthesizer GUI.
 
 ![CLB_SUB](./images/LED_Single.png)
 
@@ -146,7 +146,7 @@ The final result should look like this
 
 # Single LED Active
 
-For Single LED results the following submodule should be added within a `New Verilog`
+For Single LED results the following submodule should be added within a `New Verilog` under documents on the synthesizer GUI.
 
 
 ```
