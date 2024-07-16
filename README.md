@@ -1,3 +1,7 @@
+<!-- Please do not change this html logo with link -->
+
+<a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
+
 # Zero-Software Ultrasonic Distance Sensing — Use Case for Configurable Logic Block (CLB) Using the PIC16F13145 Microcontroller with MCC Melody
 
 This repository provides 1 project that implements a rangefinder using the HC-SR04, and displaying the results on a eight LED's.
