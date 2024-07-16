@@ -111,10 +111,10 @@ You can attach the LEDs to any I/O but the pins used in this example are
  <img src="images/TMR0.png" alt="TMR0" width="500"/>
 
 - NVM
-  - Auto-Configured for CLB
+  - Auto-Configured by CLB
 
 - CRC
-  - Auto-Configured for CLB
+  - Auto-Configured by CLB
 
 - CLB
   -  Clock Selection: TMR0_Overflow
