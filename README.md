@@ -35,8 +35,6 @@ More details and code examples on the PIC16F13145 can be found at the following 
 ### One LED ON
 ![Single LED](./images/SingleLED.gif) 
 
-Above are 2 examples of the CLB displaying configurablity, first we have the project being displayed on multiple LEDs and following that is another being displayed only on one. In this example the CLB measures the duration of the echo pin, using the Timer 0 overflow
-
 ## Concept
 ![Concept](./images/HC-SR04.png) 
 
