@@ -119,6 +119,21 @@ You can attach the LEDs to any I/O but the pins used in this example are
 
   <img src="images/CLB1.png" alt="CLB1" width="500"/>
 
+- Pin Grid View
+  - CLBPPSOUT0: RC6 (Closest Indicating LED)
+  - CLBPPSOUT1: RC7
+  - CLBPPSOUT2: RB7
+  - CLBPPSOUT3: RB5
+  - CLBPPSOUT4: RC0
+  - CLBPPSOUT5: RC1
+  - CLBPPSOUT6: RA4
+  - CLBPPSOUT7: RA5 (Furthest Indicating LED)
+  - CLBIN1PPS: RB4 (Echo Pin for HC-SR04)
+  - PWM1OUT: RB6 (Trig Pin for HC-SR04)
+ 
+<img src="images/PINGRID.png" alt="CLB1" width="500"/>
+
+
 There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream. The following instructions are going to be applicable to the MCC CLB synthesizer or the Online Tool as well.
 
 # All LEDs Active
