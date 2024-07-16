@@ -23,7 +23,7 @@ More details and code examples on the PIC16F13145 can be found at the following 
 ## Hardware Used
 
 - The [PIC16F13145 Curiosity Nano Development board](https://www.microchip.com/en-us/development-tool/EV06M52A?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_Apps_PIC16F13145&utm_content=pic16f13145-quadrature-decoder-up-down-mplab-mcc&utm_bu=MCU08) is used as a test platform: <br><img src="images/pic16f13145-cnano.png" width="600">
-- The HC-SR04 Ultraonic distance sensor:<br><img src="images/HCSR04.png" width="200">
+- The HC-SR04 Ultrasonic distance sensor:<br><img src="images/HCSR04.png" width="200">
 - Seven LEDs
 - 7 Resistors for LEDs (rec. 2.2kΩ)
 
