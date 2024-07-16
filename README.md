@@ -103,19 +103,16 @@ You can attach the LEDs to any I/O but the pins used in this example are
   - Requested Period (s): 0.000584 
  <img src="images/TMR0.png" alt="TMR0" width="500"/>
 
-### 5. NVM
-
+- NVM
   - Auto-Configured for CLB
 
-### 6. CRC
-
+- CRC
   - Auto-Configured for CLB
 
-### 7. CLB
+- CLB
+  -  Clock Selection: TMR0_Overflow
 
--  Clock Selection: TMR0_Overflow
-
- ![CLB1](./images/CLB1.png)
+  <img src="images/CLB1.png" alt="CLB1" width="500"/>
 
 There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream.
 
