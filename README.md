@@ -136,7 +136,17 @@ You can attach the LEDs to any I/O but the pins used in this example are
 <img src="images/PINGRID.png" alt="CLB1" width="500"/>
 
 
+
+## Comparison to Software
+
+The CLB significantly reduces the software overhead associated with implementing this example. In software, you would have to manage a timer, a counter, and the IO's. These tasks involve managing your pin placement, in some cases making sure there is an open row, making sure your counter and/or timer is reloaded. With the CLB, all of the functions associated with this example are handled by the hardware, which leaves the CPU free to do other tasks without interruption. 
+
+## Theory of Operation
+
+The CLB is a series of LUTs, similiar to an FPGA. In the PIC16F13145 family of MCUs, there are 32 LUTs available. To configure the logic, use the CLB Synthesizer tool inside of MCC (or the equivalant [standalone online tool](https://logic.microchip.com/clbsynthesizer/)). Logic diagrams are screenshots of the tool. All of the configuration files (.clb and .v) are included in the example folders. 
+
 There are 2 configurations of this project. (Single LED and All LEDs) All previous settings will be the exact same for both these examples, the only change is the CLB bitstream. The following instructions are going to be applicable to the MCC CLB synthesizer or the Online Tool as well. 
+
 
 # All LEDs Active
 
