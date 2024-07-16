@@ -74,27 +74,33 @@ You can attach the LEDs to any I/O but the pins used in this example are
 
 ## MCC Setup
 
-1. Configuration Bits:
- -  Osillator not enabled
- -  HFINTOSC (32MHz)
- -  CLKOUT function disabled
- -  Interal analog systems are calibrated for operation between VDD = 2.3 - 5.5V
+- Configuration Bits:
+  -  Osillator not enabled
+  -  HFINTOSC (32MHz)
+  -  CLKOUT function disabled
+  -  Interal analog systems are calibrated for operation between VDD = 2.3 - 5.5V
 
  <img src="images/CONFIG1.png" alt="CONFIG1" width="500"/>
 
-### 2. TMR2
-
-
+- TMR2
+  - Clock Source: FOSC/4
+  - Prescalar: 1:128
+  - Postscalar: 1:16
+  - Time Period (s): 0.9
  
  <img src="images/TMR2.png" alt="TMR2" width="500"/>
 
-### 3. PWM1
-
+- PWM1
+  - Timer Dependency Selector: Timer2
+  - Duty Cycle (%): 10
+    
  <img src="images/PWM1.png" alt="PWM1" width="500"/>
 
-### 4. TMR0
- 
-  - 
+- TMR0
+  - Timer Mode: 8-bit
+  - Clock Prescaler: 1:128
+  - Clock Source: HFINTOSC 
+  - Requested Period (s): 0.000584 
  <img src="images/TMR0.png" alt="TMR0" width="500"/>
 
 ### 5. NVM
