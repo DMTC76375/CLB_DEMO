@@ -36,8 +36,14 @@ More details and code examples on the PIC16F13145 can be found at the following 
 ### All LEDs ON
 ![All LEDs](./images/AllLEDs.gif) 
 
+This demonstration, shows the PIC16F13145 using a CLB configuration using verilog and the internal counter to keep every LED below the measured value HIGH while running.
+
 ### One LED ON
 ![Single LED](./images/SingleLED.gif) 
+
+This demonstration, shows the PIC16F13145 using a CLB configuration using logic gates and the internal counter to keep only the measured LED HIGH while running.
+
+These demonstrations showcase how the CLB is an openended tool with a higher level of configurability.
 
 ## Concept
 ![Concept](./images/HC-SR04.png) 
