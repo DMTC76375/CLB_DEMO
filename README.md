@@ -189,4 +189,13 @@ The final result should look like this
 
 ![CLB_MAIN2](./images/Syth_All.png)
 
+## How to Program the Curiosity Nano
+
+1. Connect the Curiosity Nano to the computer with a USB Type-C Cable.
+2. Open the project folder in MPLAB X IDE.
+3. Press the Programming Button (arrow into the microcontroller) on the top toolbar.  
+   ![Programming Button](./images/programmingIcon.PNG)
+4. Select the Curiosity Nano from the list.  
+   ![Selecting a tool](./images/toolSelect.PNG)
+5. Wait for the code to compile and programming to complete.
 
