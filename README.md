@@ -142,7 +142,7 @@ For Single LED results the following submodule should be added within a `New Sch
 
 The final result should look like this 
 
-![CLB_MAIN1](./images/CLB_Single.png)
+![CLB_MAIN1](./images/Syth_Select.png)
 
 # Single LED Active
 
@@ -167,6 +167,6 @@ endmodule
 
 The final result should look like this 
 
-![CLB_MAIN2](./images/CLB_ALL.png)
+![CLB_MAIN2](./images/Syth_All.png)
 
 
