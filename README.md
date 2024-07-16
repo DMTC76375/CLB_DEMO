@@ -4,11 +4,13 @@
 
 # Zero-Software Ultrasonic Distance Sensing — Use Case for Configurable Logic Block (CLB) Using the PIC16F13145 Microcontroller with MCC Melody
 
-This repository provides 1 project that implements a rangefinder using the HC-SR04, and displaying the results on a eight LED's.
+This repository provides one projects that implement a rangefinder using the HC-SR04, and displaying the results on a eight LED's.
 
 The CLB peripheral is a collection of logic elements that can be programmed to perform a variety of digital logic functions. The logic function may be completely combinatorial, sequential or a combination of the two, enabling users to incorporate hardware-based custom logic into their applications. 
 
 The HC-SR04 is a standard ultrasonic sensor that can be used for object detection and distance sensing. This is accomplished by the transmitter sending a signal, and making a calculation based off the time it took the signal to get back to the reciever. 
+
+The CLB will act as a logic handler, interpreting the HC-SR04 sensor data, and displaying it on eight LEDs.
 
 ## Related Documentation
 
@@ -43,12 +45,12 @@ This demonstration, shows the PIC16F13145 using a CLB configuration using verilo
 
 This demonstration, shows the PIC16F13145 using a CLB configuration using logic gates and the internal counter to keep only the measured LED HIGH while running.
 
-These demonstrations showcase how the CLB is an openended tool with a higher level of configurability.
+These demonstrations show the CLB is a highly configurable and open ended tool.
 
 ## Concept
 ![Concept](./images/HC-SR04.png) 
 
-The HC-SR04 Sensor works by sending a series of pulses after the trigger pin has been toggled. These pulses will travel until they reach an object, and reflect back to the sensor if within range. This transaction is measured proportionally on the Echo pin, the pin will remain high a signal is never received back. This means that the CLB can monitor the HC-SR04 by watching the echo pin.
+The HC-SR04 Sensor works by sending a series of pulses after the trigger pin has been toggled. These pulses will travel until they reach an object, and reflect back to the sensor if within range. This transaction is measured proportionally on the Echo pin, the pin will remain high if a signal is never received back. This means that the CLB can monitor the HC-SR04 by watching the echo pin.
 
 ![Concept Logic](./images/CLB_LOGIC.png) 
 
