@@ -42,7 +42,7 @@ The HC-SR04 Sensor works by sending a series of pulses after the trigger pin has
 
 ![Concept Logic](./images/CLB_LOGIC.png) 
 
-Using the timer 0 overflow and the internal CLB counter we can use the echo line to sort itself out into bins and be displayed on `COUNT_IS_X`
+Using the timer 0 overflow and the internal CLB counter we can use the echo line to sort itself out into bins that will be displayed on `COUNT_IS_X`
 
 ## Hardware Setup
 
