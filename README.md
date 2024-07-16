@@ -196,6 +196,6 @@ The final result should look like this
 3. Press the Programming Button (arrow into the microcontroller) on the top toolbar.  
    ![Programming Button](./images/programmingIcon.PNG)
 4. Select the Curiosity Nano from the list.  
-   ![Selecting a tool](./images/toolSelect.PNG)
+   ![Selecting a tool](./images/PKOB.png)
 5. Wait for the code to compile and programming to complete.
 
